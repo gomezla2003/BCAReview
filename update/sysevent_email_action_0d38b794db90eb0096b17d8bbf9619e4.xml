@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Incident" name="Incident">7d7c928f13f003000f3f76d66144b0b2</category>
+        <collection>x_sthc_bca_review_bca_business_owner_mapping</collection>
+        <condition/>
+        <content_type>multipart/mixed</content_type>
+        <description/>
+        <event_name>x_sthc_bca_review.bca.owner</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message><![CDATA[<mail_script>
+
+  var thef = new EVG_SSI_EmailFormatter('IT');
+  var incidentURL = gs.getProperty('glide.servlet.uri') + "nav_to.do?uri=" + GlideStringUtil.urlEncode(gs.generateURL(current.getTableName(), current.sys_id));
+  var sSubject = "BCA (Downtime)  Workstation(s) in need of review ";
+var bcas=current.bca;
+var bcaSplit = bcas.split(',');
+
+  /* Header */
+  var aHeaderParms = {'BASE_URL' : gs.getProperty('glide.servlet.uri'), 
+                                 'SUBJECT' : sSubject ,
+                                 'URI_REF' : incidentURL, 
+                                 'LINK_TITLE' : "View Incident Details"
+                                };
+  var sHTML = thef.getSection('header', aHeaderParms);
+
+  /* Content */
+  //Top table information
+  var bodyContent = "<table style=\"WIDTH: 100%;border:1px solid "+thef.BORDER_COLOR+";padding:4px;\"><tbody>";
+//bodyContent += bcaSplit[i]; 
+for(i=0;i<bcaSplit.length; i++){
+var gr = new GlideRecord('cmdb_ci_computer');
+gr.addQuery('sys_id',bcaSplit[i]);
+gr.query();
+while(gr.next()){
+var url = "csm?id=bca_review&bca=" + gr.sys_id;
+bodyContent += "<tr><td valign=\"top\" width=\"125\"><strong>Workstation:</strong></td><td valign=\"top\">" + gr.name + "</td><td valign=\"top\">" + gr.location.getDisplayValue() + "</td><td valign=\"top\"><a href='"+url+"'>link</a></td></tr>";
+}}
+ 
+  bodyContent += "</tbody></table>";
+
+  bodyContent += "<p>Please review each workstation listed above by clicking on the associated 'link' and fill out the checklist </p>";
+
+
+  var sDescription;
+
+
+
+  var sLatestComments = thef.formatArray(current.comments_and_work_notes.getJournalEntry(1));
+
+
+
+  var aBodyParms = {'BODY_CONTENT' : bodyContent};
+  sHTML += thef.getSection('body', aBodyParms);
+  sHTML += thef.getSection('footer');
+  email.setBody(sHTML);
+  email.setSubject(sSubject);
+</mail_script>]]></message>
+        <message_html><![CDATA[<p><img title="HonorHealth" src="hh_logo.pngx" alt="HonorHealth" width="100" height="50" align="left" border="" hspace="5" vspace="" /></p>
+<p>&nbsp;</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>BCA (Downtime) Workstation(s) in need of review</strong></span></p>
+<hr style="height: 3px; border: none; background-color: #72246c;" />
+<div style="background-color: #fcf4ff; border: 0.5px solid #72246c;">
+<p>${mail_script:BCA business owner sign-off_script_1}</p>
+</div>
+<p><span style="font-size: 12pt;">Please review each workstation listed above by clicking on the associated 'link' and fill out the checklist</span></p>
+<p>&nbsp;</p>
+<hr style="height: 2px; border: none; background-color: #72246c;" />
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>BCA business owner sign-off</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>BCA (Downtime) Workstation(s) in need of review</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-08-29 17:34:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>0d38b794db90eb0096b17d8bbf9619e4</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>BCA business owner sign-off</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+        <sys_update_name>sysevent_email_action_0d38b794db90eb0096b17d8bbf9619e4</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-08-29 18:06:14</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>60</weight>
+    </sysevent_email_action>
+</record_update>

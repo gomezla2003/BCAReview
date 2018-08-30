@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="BCA business owner mapping" max_length="40" name="x_sthc_bca_review_bca_business_owner_mapping" type="collection">
+        <element label="BCA" max_length="200" name="bca" type="string"/>
+        <element label="Business Owner" max_length="32" name="business_owner" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="business_owner"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_sthc_bca_review_table" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bca</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">663f8311db3b138096b17d8bbf9619c9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-07 20:38:15</sys_created_on>
+            <sys_id>ee3f8311db3b138096b17d8bbf9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-07 20:38:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bca_folder</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">663f8311db3b138096b17d8bbf9619c9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-07 20:38:15</sys_created_on>
+            <sys_id>2e3f4b11db3b138096b17d8bbf96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-07 20:38:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>launch_bca</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">663f8311db3b138096b17d8bbf9619c9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-07 20:38:15</sys_created_on>
+            <sys_id>ae3f4b11db3b138096b17d8bbf96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-07 20:38:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>locate_bca</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">663f8311db3b138096b17d8bbf9619c9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-07 20:38:15</sys_created_on>
+            <sys_id>223f4b11db3b138096b17d8bbf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-07 20:38:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>locate_bca_binder</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">663f8311db3b138096b17d8bbf9619c9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-07 20:38:15</sys_created_on>
+            <sys_id>a23f4b11db3b138096b17d8bbf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-07 20:38:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>login_bca</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">663f8311db3b138096b17d8bbf9619c9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-07 20:38:15</sys_created_on>
+            <sys_id>263f4b11db3b138096b17d8bbf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-07 20:38:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>login_windows</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">663f8311db3b138096b17d8bbf9619c9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-07 20:38:15</sys_created_on>
+            <sys_id>a63f4b11db3b138096b17d8bbf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-07 20:38:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>print_downtime</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">663f8311db3b138096b17d8bbf9619c9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-07 20:38:15</sys_created_on>
+            <sys_id>2a3f4b11db3b138096b17d8bbf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-07 20:38:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>print_report</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">663f8311db3b138096b17d8bbf9619c9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-07 20:38:15</sys_created_on>
+            <sys_id>aa3f4b11db3b138096b17d8bbf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-07 20:38:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>supply</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">663f8311db3b138096b17d8bbf9619c9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-07 20:38:15</sys_created_on>
+            <sys_id>2e3f4b11db3b138096b17d8bbf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-07 20:38:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_sthc_bca_review_table</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-07 21:21:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>fc095f59db3b138096b17d8bbf96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-07 21:21:00</sys_updated_on>
+            <sys_user display_value="Louie Gomez">9dd736c46fd4710068ceda0cbb3ee476</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

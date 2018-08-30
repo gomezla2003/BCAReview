@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="labels" label="Have enough supply of Avery 5160 Label sheets to print ADT labels" language="en" table="x_sthc_bca_review_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>labels</element>
+            <help/>
+            <hint/>
+            <label>Have enough supply of Avery 5160 Label sheets to print ADT labels</label>
+            <language>en</language>
+            <name>x_sthc_bca_review_table</name>
+            <plural>Have enough supply of Avery 5160 Label sheets to print ADT labels</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-29 15:53:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>18f0eb18db10eb0096b17d8bbf961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Have enough supply of Avery 5160 Label sheets to print ADT labels</sys_name>
+            <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+            <sys_update_name>sys_documentation_x_sthc_bca_review_table_labels_en</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-29 15:53:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

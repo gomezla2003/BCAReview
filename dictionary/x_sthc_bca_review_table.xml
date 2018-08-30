@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="BCA review Table" max_length="40" name="x_sthc_bca_review_table" type="collection">
+        <element label="BCA" max_length="32" name="bca" reference="cmdb_ci_computer" type="reference"/>
+        <element label="Able to locate the &quot;Downtime Forms&quot; folder" max_length="40" name="bca_folder" type="boolean"/>
+        <element label="Confirm &quot;Epic BCA Printing 2017&quot; icon is on the desktop" max_length="40" name="icon_desktop" type="boolean"/>
+        <element label="Have enough supply of Avery 5160 Label sheets to print ADT labels" max_length="40" name="labels" type="boolean"/>
+        <element label="Upon windows login,  confirm BCA Application auto launches within 90 secs" max_length="40" name="launch_bca" type="boolean"/>
+        <element label="Able to locate the BCA (downtime) computer" max_length="40" name="locate_bca" type="boolean"/>
+        <element label="Able to locate BCA binder near the BCA computer" max_length="40" name="locate_bca_binder" type="boolean"/>
+        <element label="Able to Log into the BCA Application using Epic Username and Password" max_length="40" name="login_bca" type="boolean"/>
+        <element label="Able to log into windows using the BCA Username and Password on the BCA computer" max_length="40" name="login_windows" type="boolean"/>
+        <element label="Able to print 1 downtime form from within the &quot;Downtime Forms&quot; folder" max_length="40" name="print_downtime" type="boolean"/>
+        <element label="Able to print 1 BCA Report to the locally attached printer" max_length="40" name="print_report" type="boolean"/>
+        <element label="Have enough supply of printed downtime forms for use" max_length="40" name="supply" type="boolean"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Able to view BCA Reports" max_length="40" name="view_reports" type="boolean"/>
+        <index name="index">
+            <element name="bca"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
