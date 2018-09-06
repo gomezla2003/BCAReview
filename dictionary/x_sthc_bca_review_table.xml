@@ -3,6 +3,7 @@
     <element label="BCA review Table" max_length="40" name="x_sthc_bca_review_table" type="collection">
         <element label="BCA" max_length="32" name="bca" reference="cmdb_ci_computer" type="reference"/>
         <element label="Able to locate the &quot;Downtime Forms&quot; folder" max_length="40" name="bca_folder" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="2000" name="comments" type="string"/>
         <element label="Confirm &quot;Epic BCA Printing 2017&quot; icon is on the desktop" max_length="40" name="icon_desktop" type="boolean"/>
         <element label="Have enough supply of Avery 5160 Label sheets to print ADT labels" max_length="40" name="labels" type="boolean"/>
         <element label="Upon windows login,  confirm BCA Application auto launches within 90 secs" max_length="40" name="launch_bca" type="boolean"/>
