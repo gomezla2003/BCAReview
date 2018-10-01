@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="BCA Inactive Business Owners">9f95c20bdb30674040f8fcfa0c9619f9</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-10-01 18:48:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1795c20bdb30674040f8fcfa0c9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9f95c20bdb30674040f8fcfa0c9619f9</sys_name>
+        <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+        <sys_update_name>sys_report_users_groups_1795c20bdb30674040f8fcfa0c9619fa</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-10-01 18:48:47</sys_updated_on>
+        <user_id display_value="Louie Gomez">9dd736c46fd4710068ceda0cbb3ee476</user_id>
+    </sys_report_users_groups>
+</record_update>
