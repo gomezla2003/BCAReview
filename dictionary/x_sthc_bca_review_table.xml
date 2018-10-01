@@ -2,20 +2,19 @@
 <database>
     <element label="BCA review Table" max_length="40" name="x_sthc_bca_review_table" type="collection">
         <element label="BCA" max_length="32" name="bca" reference="cmdb_ci_computer" type="reference"/>
-        <element label="Able to locate the &quot;Downtime Forms&quot; folder" max_length="40" name="bca_folder" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Comments" max_length="2000" name="comments" type="string"/>
-        <element label="Confirm &quot;Epic BCA Printing 2017&quot; icon is on the desktop" max_length="40" name="icon_desktop" type="boolean"/>
-        <element label="Have enough supply of Avery 5160 Label sheets to print ADT labels" max_length="40" name="labels" type="boolean"/>
-        <element label="Upon windows login,  confirm BCA Application auto launches within 90 secs" max_length="40" name="launch_bca" type="boolean"/>
-        <element label="Able to locate the BCA (downtime) computer" max_length="40" name="locate_bca" type="boolean"/>
-        <element label="Able to locate BCA binder near the BCA computer" max_length="40" name="locate_bca_binder" type="boolean"/>
-        <element label="Able to Log into the BCA Application using Epic Username and Password" max_length="40" name="login_bca" type="boolean"/>
-        <element label="Able to log into windows using the BCA Username and Password on the BCA computer" max_length="40" name="login_windows" type="boolean"/>
-        <element label="Able to print 1 downtime form from within the &quot;Downtime Forms&quot; folder" max_length="40" name="print_downtime" type="boolean"/>
-        <element label="Able to print 1 BCA Report to the locally attached printer" max_length="40" name="print_report" type="boolean"/>
-        <element label="Have enough supply of printed downtime forms for use" max_length="40" name="supply" type="boolean"/>
+        <element label="Confirm &quot;Epic BCA Printing 2017&quot; Icon is on the desktop" max_length="32" name="icon_desktop" type="string"/>
+        <element label="Have enough supply of Avery 5160 Label sheets to print ADT labels" max_length="32" name="labels" type="string"/>
+        <element label="Upon windows login, confirm the green Business Continuity Access (BCA) PC login" max_length="32" name="launch_bca" type="string"/>
+        <element label="Able to locate Business Continuity Access (BCA) PC also called downtime computer" max_length="32" name="locate_bca" type="string"/>
+        <element label="Able to locate the BCA binder near the BCA computer" max_length="32" name="locate_bca_binder" type="string"/>
+        <element label="Able to Log into the BCA Application using Epic Username and Password" max_length="32" name="login_bca" type="string"/>
+        <element label="Able to log into windows using the BCA Username and Password on the BCA computer" max_length="32" name="login_windows" type="string"/>
+        <element label="Able to print 1 downtime form from within the &quot;Downtime Forms&quot; folder" max_length="32" name="print_downtime" type="string"/>
+        <element label="Able to print 1 BCA Report to the locally attached printer" max_length="32" name="print_report" type="string"/>
+        <element label="Have enough supply of printed downtime forms for use" max_length="32" name="supply" type="string"/>
         <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
-        <element label="Able to view BCA Reports" max_length="40" name="view_reports" type="boolean"/>
+        <element label="Able to view BCA Reports" max_length="32" name="view_reports" type="string"/>
         <index name="index">
             <element name="bca"/>
         </index>

@@ -31,9 +31,9 @@
         <element>print_report</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="">boolean</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>32</max_length>
         <name>x_sthc_bca_review_table</name>
         <next_element/>
         <primary>false</primary>
@@ -51,9 +51,9 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
-        <sys_created_on>2018-08-07 16:46:24</sys_created_on>
+        <sys_created_on>2018-09-21 20:44:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>5b699e15dbf3138096b17d8bbf9619b7</sys_id>
+        <sys_id>a7dfbe73db202b0096b17d8bbf961934</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Able to print 1 BCA Report to the locally attached printer</sys_name>
         <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
         <sys_update_name>sys_dictionary_x_sthc_bca_review_table_print_report</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-08-07 16:46:24</sys_updated_on>
+        <sys_updated_on>2018-09-21 20:44:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

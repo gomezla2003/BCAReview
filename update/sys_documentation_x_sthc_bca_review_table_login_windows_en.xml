@@ -11,9 +11,9 @@
             <plural>Able to log into windows using the BCA Username and Password on the BCA computer</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-07 16:46:25</sys_created_on>
+            <sys_created_on>2018-09-21 20:44:38</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>662a1e95dbf3138096b17d8bbf961966</sys_id>
+            <sys_id>8f30cbf7db202b0096b17d8bbf9619b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Able to log into windows using the BCA Username and Password on the BCA computer</sys_name>
             <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
@@ -22,7 +22,7 @@
             <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
             <sys_update_name>sys_documentation_x_sthc_bca_review_table_login_windows_en</sys_update_name>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-07 16:46:25</sys_updated_on>
+            <sys_updated_on>2018-09-21 20:44:38</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
