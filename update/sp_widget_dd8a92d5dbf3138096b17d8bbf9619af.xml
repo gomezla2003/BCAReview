@@ -256,8 +256,8 @@ label{
 function createReview(bca){
 	var gr = new GlideRecord('x_sthc_bca_review_table');
 	gr.initialize();
-	if(input.bca_folder)gr.setValue('bca_folder', input.bca_folder);
-	if(input.lanch_bca)gr.setValue('launch_bca', input.lanch_bca);
+	if(input.locate_bca_binder)gr.setValue('bca_folder', input.locate_bca_binder);
+	if(input.launch_bca)gr.setValue('launch_bca', input.launch_bca);
 	if(input.locate_bca)gr.setValue('locate_bca', input.locate_bca);
 	if(input.locate_bca_binder)gr.setValue('locate_bca_binder', input.locate_bca_binder);
 	if(input.login_bca)gr.setValue('login_bca', input.login_bca);
@@ -298,17 +298,17 @@ function getReview(bca){
 	gr.query();
 	while(gr.next()){
 		data.locate_bca = gr.locate_bca.getDisplayValue();
-		data.locate_bca_binder = gr.locate_bca_binder.getDisplayValue();
-		data.login_windows = gr.login_windows.getDisplayValue();
-		data.launch_bca = gr.launch_bca.getDisplayValue();
-		data.login_bca = gr.login_bca.getDisplayValue();
-		data.view_reports = gr.view_reports.getDisplayValue();
-		data.print_report = gr.print_report.getDisplayValue();
-		data.icon_desktop = gr.icon_desktop.getDisplayValue();
-		data.print_downtime = gr.print_downtime.getDisplayValue();
-		data.supply = gr.supply.getDisplayValue();
-		data.labels = gr.labels.getDisplayValue();
-		data.comments = gr.comments.getDisplayValue();
+		if(gr.locate_bca_binder)data.locate_bca_binder = gr.locate_bca_binder.getDisplayValue();
+		if(gr.login_windows)data.login_windows = gr.login_windows.getDisplayValue();
+		if(gr.launch_bca)data.launch_bca = gr.launch_bca.getDisplayValue();
+		if(gr.login_bca)data.login_bca = gr.login_bca.getDisplayValue();
+		if(gr.view_reports)data.view_reports = gr.view_reports.getDisplayValue();
+		if(gr.print_report)data.print_report = gr.print_report.getDisplayValue();
+		if(gr.icon_desktop)data.icon_desktop = gr.icon_desktop.getDisplayValue();
+		if(gr.print_downtime)data.print_downtime = gr.print_downtime.getDisplayValue();
+		if(gr.supply)data.supply = gr.supply.getDisplayValue();
+		if(gr.labels)data.labels = gr.labels.getDisplayValue();
+		if(gr.comments)data.comments = gr.comments.getDisplayValue();
 		data.user = gr.user.getDisplayValue();
 		data.when = gr.sys_created_on.getDisplayValue();
 
@@ -322,7 +322,7 @@ function getReview(bca){
         <sys_created_on>2018-08-07 16:48:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>dd8a92d5dbf3138096b17d8bbf9619af</sys_id>
-        <sys_mod_count>383</sys_mod_count>
+        <sys_mod_count>388</sys_mod_count>
         <sys_name>BCA Review</sys_name>
         <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
         <sys_policy/>
@@ -330,7 +330,7 @@ function getReview(bca){
         <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
         <sys_update_name>sp_widget_dd8a92d5dbf3138096b17d8bbf9619af</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-09-27 19:55:32</sys_updated_on>
+        <sys_updated_on>2018-10-04 16:52:08</sys_updated_on>
         <template><![CDATA[<div ng-show="data.valid" class="container">
   <div class="checklist">
     <section>
@@ -373,7 +373,6 @@ function getReview(bca){
     <td><input ng-model="data.launch_bca" value="N/A" class="medium" type="radio" name="launch_bca"/></td>
     <td><label>Upon windows login, confirm the green <i>"Business Continuity Access (BCA) PC"</i> login screen displays within 90 secs</label></td>
   </tr>
- 
   
      <tr>
     <td><input ng-model="data.login_bca" value="Yes" class="green" type="radio" name="login_bca"/></td>
@@ -398,7 +397,7 @@ function getReview(bca){
     <td><input ng-model="data.icon_desktop" value="Yes" class="green" type="radio" name="icon_desktop"/></td>
     <td><input ng-model="data.icon_desktop" value="No" class="red" type="radio" name="icon_desktop"/></td>
     <td><input ng-model="data.icon_desktop" value="N/A" class="medium" type="radio" name="icon_desktop"/></td>
-    <td><label>Confirm <i>"Epic BCA Printing 2017"</i> Icon is on the desktop. Used only if the green BCA login screen fails to display within 90 secs</label></td>
+    <td><label>Confirm <i>"Epic BCA Printing 2018"</i> Icon is on the desktop. Used only if the green BCA login screen fails to display within 90 secs</label></td>
   </tr>
      <tr>
    <td><input ng-model="data.print_downtime" value="Yes" class="green" type="radio" name="print_downtime"/></td>
@@ -429,104 +428,6 @@ function getReview(bca){
   </div>
    <button ng-click="c.submit()" id="button"></button>
 </div>
-      
-      
-      
-      
-
-        
-   <!--   
-       
-
-  
-  
-    
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <ul>
-       <div class="float">
-         
-         <li>
-          <input type="checkbox"  ng-model="data.locate_bca" name="item_100" id="item_100"><input type="checkbox"  ng-model="data.locate_bca" name="item_1" id="item_1"><label for="item_100">test</label><span class="input"><span class="check"></span></span>
-          </li>
-        <li>
-          <input type="checkbox"  ng-model="data.locate_bca" name="item_100" id="item_100"><input type="checkbox"  ng-model="data.locate_bca" name="item_1" id="item_1"><label for="item_100">test</label><span class="input"><span class="check"></span></span>
-          </li>
-        </div>  
-           
-     
-
-        <li>
-          <input type="checkbox" ng-model="data.login_windows" name="item_3" id="item_3"><label for="item_3">Able to log into windows using the BCA Username and Password on the BCA computer </label><span class="input"><span class="check"></span></span>
-        </li>
-
-        <li>
-          <input type="checkbox" ng-model="data.icon_desktop" name="item_4" id="item_4"><label for="item_4">Confirm "Epic BCA Printing 2017" icon is on the desktop</label><span class="input"><span class="check"></span></span>
-        </li>
-
-       <li>
-          <input type="checkbox" ng-model="data.launch_bca" name="item_6" id="item_6"><label for="item_6">Upon windows login,  confirm BCA Application auto launches within 90 secs </label><span class="input"><span class="check"></span></span>
-        </li>
-        
-        <li>
-          <input type="checkbox" ng-model="data.login_bca" name="item_5" id="item_5"><label for="item_5">Able to Log into the BCA Application using Epic Username and Password</label><span class="input"><span class="check"></span></span>
-        </li>
-        
-        
-         <li>
-          <input type="checkbox" ng-model="data.view_reports" name="item_7" id="item_7"><label for="item_7">Able to view BCA Reports</label><span class="input"><span class="check"></span></span>
-        </li>
-
-        <li>
-          <input type="checkbox" ng-model="data.print_report" name="item_8" id="item_8"><label for="item_8">Able to print 1 BCA Report to the locally attached printer</label><span class="input"><span class="check"></span></span>
-        </li>
-
-        <li>
-          <input type="checkbox" ng-model="data.bca_folder" name="item_9" id="item_9"><label for="item_9">Able to locate the "Downtime Forms" folder on the desktop</label><span class="input"><span class="check"></span></span>
-        </li>
-
-        <li>
-          <input type="checkbox" ng-model="data.print_downtime" name="item_10" id="item_10"><label for="item_10">Able to print 1 downtime form from within the "Downtime Forms" folder</label><span class="input"><span class="check"></span></span>
-        </li>
-
-        <li>
-          <input type="checkbox" ng-model="data.supply" name="item_11" id="item_11"><label for="item_11">Have enough supply of printed downtime forms for use</label><span class="input"><span class="check"></span></span>
-        </li>
-        
-		<li>
-          <input type="checkbox" ng-model="data.labels" name="item_12" id="item_12"><label for="item_12">Have enough supply of Avery 5160 Label sheets to print ADT labels</label><span class="input"><span class="check"></span></span>
-        </li>
-       
-      </ul>
-      
-  <div class="form-group comment">
-  <label for="comment"><b>Please provide comments for any unchecked fields. If you have any issues, please contact the IT Service Desk at 480-882-4357</b></label>
-  <textarea ng-model="data.comments" class="form-control" rows="5" id="comment"></textarea>
-</div>
-      
- 
-
-      
-    </section>
-  </div>
-</div>
-
--->]]></template>
+      ]]></template>
     </sp_widget>
 </record_update>
