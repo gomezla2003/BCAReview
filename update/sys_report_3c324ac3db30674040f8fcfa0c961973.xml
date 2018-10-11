@@ -36,7 +36,7 @@
         <donut_width_percent>50</donut_width_percent>
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
-        <field_list>bca,sys_created_on,user,locate_bca,locate_bca_binder,login_bca,login_windows,print_downtime,print_report,supply,view_reports,icon_desktop,labels</field_list>
+        <field_list>bca,sys_created_on,bca.u_application_owner,user,locate_bca,locate_bca_binder,login_bca,login_windows,print_downtime,print_report,supply,view_reports,icon_desktop,labels,launch_bca</field_list>
         <filter/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -90,7 +90,7 @@
         <sys_created_on>2018-10-01 18:33:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3c324ac3db30674040f8fcfa0c961973</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>BCA Review</sys_name>
         <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
         <sys_policy/>
@@ -98,7 +98,7 @@
         <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
         <sys_update_name>sys_report_3c324ac3db30674040f8fcfa0c961973</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-10-01 18:33:52</sys_updated_on>
+        <sys_updated_on>2018-10-11 17:11:42</sys_updated_on>
         <table>x_sthc_bca_review_table</table>
         <title>BCA Review</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

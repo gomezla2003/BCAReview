@@ -35,9 +35,11 @@
         <display_row_lines>false</display_row_lines>
         <donut_width_percent>50</donut_width_percent>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>bca</field>
+        <field>u_able_to_ping_bca_pc_for_connectivity</field>
         <field_list/>
-        <filter table="x_sthc_bca_review_bca_business_owner_mapping">business_owner.active=false<item endquery="false" field="business_owner.active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+        <filter table="cmdb_ci_computer">u_bca=true^u_business_ownerISEMPTY^GROUPBYu_able_to_ping_bca_pc_for_connectivity<item endquery="false" field="u_bca" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_business_owner" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="u_able_to_ping_bca_pc_for_connectivity"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -85,23 +87,23 @@
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
         <show_zero>true</show_zero>
-        <sumfield>business_owner...</sumfield>
+        <sumfield>u_application_owner...</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-10-01 18:41:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b9f3c287db30674040f8fcfa0c96198e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>BCA Inactive Owners</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>BCA's with no Business Owners</sys_name>
         <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
         <sys_update_name>sys_report_b9f3c287db30674040f8fcfa0c96198e</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-10-01 18:41:35</sys_updated_on>
-        <table>x_sthc_bca_review_bca_business_owner_mapping</table>
-        <title>BCA Inactive Owners</title>
+        <sys_updated_on>2018-10-11 17:15:04</sys_updated_on>
+        <table>cmdb_ci_computer</table>
+        <title>BCA's with no Business Owners</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_sthc_bca_review_bca_business_owner_mapping" version="2" view="rpt-temp9f95c20bdb30674040f8fcfa0c9619f99dd736c46fd4710068ceda0cbb3ee476">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_owner</element>
+            <list_id display_value="x_sthc_bca_review_bca_business_owner_mapping" element="NULL" name="x_sthc_bca_review_bca_business_owner_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="ef95820bdb30674040f8fcfa0c9619a1">7b8d0d12db41278040f8fcfa0c96195a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-10-11 17:04:08</sys_created_on>
+            <sys_id>ff8d0d12db41278040f8fcfa0c96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-10-11 17:04:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_owner.title</element>
+            <list_id display_value="x_sthc_bca_review_bca_business_owner_mapping" element="NULL" name="x_sthc_bca_review_bca_business_owner_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="ef95820bdb30674040f8fcfa0c9619a1">7b8d0d12db41278040f8fcfa0c96195a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-10-11 17:04:08</sys_created_on>
+            <sys_id>738d0d12db41278040f8fcfa0c96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-10-11 17:04:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bca</element>
+            <list_id display_value="x_sthc_bca_review_bca_business_owner_mapping" element="NULL" name="x_sthc_bca_review_bca_business_owner_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="ef95820bdb30674040f8fcfa0c9619a1">7b8d0d12db41278040f8fcfa0c96195a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-10-11 17:04:08</sys_created_on>
+            <sys_id>f38d0d12db41278040f8fcfa0c96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-10-11 17:04:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_sthc_bca_review_bca_business_owner_mapping</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-10-11 16:12:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>ffc18ddadbcde38040f8fcfa0c9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-10-11 16:12:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt-temp9f95c20bdb30674040f8fcfa0c9619f99dd736c46fd4710068ceda0cbb3ee476" name="rpt-temp9f95c20bdb30674040f8fcfa0c9619f99dd736c46fd4710068ceda0cbb3ee476">ef95820bdb30674040f8fcfa0c9619a1</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
