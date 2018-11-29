@@ -268,6 +268,7 @@ function createReview(bca){
 	if(input.view_reports)gr.setValue('view_reports', input.view_reports);
 	if(input.icon_desktop)gr.setValue('icon_desktop',input.icon_desktop);
 	if(input.labels)gr.setValue('labels',input.labels);
+	if(input.addUsers)gr.setValue('additional_users_comment', input.addUsers);
 	gr.setValue('user',gs.getUserID());
 	gr.setValue('bca', bca);
 	if(input.comments)gr.setValue('comments',input.comments);
@@ -284,6 +285,7 @@ function getBCADetails(bca){
 		data.number = gr.getDisplayValue('name');
 		data.location = gr.getDisplayValue('location');
 		data.valid = true;
+		data.users = gr.getDisplayValue('u_business_owner');
 	}
 	return valid
 	
@@ -322,7 +324,7 @@ function getReview(bca){
         <sys_created_on>2018-08-07 16:48:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>dd8a92d5dbf3138096b17d8bbf9619af</sys_id>
-        <sys_mod_count>388</sys_mod_count>
+        <sys_mod_count>393</sys_mod_count>
         <sys_name>BCA Review</sys_name>
         <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
         <sys_policy/>
@@ -330,7 +332,7 @@ function getReview(bca){
         <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
         <sys_update_name>sp_widget_dd8a92d5dbf3138096b17d8bbf9619af</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-10-04 16:52:08</sys_updated_on>
+        <sys_updated_on>2018-11-16 17:39:07</sys_updated_on>
         <template><![CDATA[<div ng-show="data.valid" class="container">
   <div class="checklist">
     <section>
@@ -420,6 +422,13 @@ function getReview(bca){
  
 </table>
 <br>
+    
+     <div class="form-group comment">
+  <label for="comment">The following users recieved an email to review this workstation. <br><b> {{data.users}}</b><br>Is there anyone else who should be receiving e-mails for this checklist for this particular department? List the names and e-mail addresses below</label>
+  <textarea ng-model="data.addUsers" class="form-control" rows="3" id="comment"></textarea>
+</div>
+    
+    
      <div class="form-group comment">
   <label for="comment"><b>Please provide comments if needed. If you have any issues, please contact the IT Service Desk at 480-882-4357</b></label>
   <textarea ng-model="data.comments" class="form-control" rows="5" id="comment"></textarea>

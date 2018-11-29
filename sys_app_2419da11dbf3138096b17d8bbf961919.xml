@@ -16,21 +16,21 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_sthc_bca_review</source>
-        <store_correlation_id>REPOAPP0000082131</store_correlation_id>
+        <store_correlation_id>REPOAPP0000082133</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-08-07 16:41:42</sys_created_on>
         <sys_id>2419da11dbf3138096b17d8bbf961919</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-10-11 17:31:53</sys_updated_on>
+        <sys_updated_on>2018-11-29 17:39:59</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_sthc_bca_review.user" name="x_sthc_bca_review.user">6c199a55dbf3138096b17d8bbf961996</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.90</version>
+        <version>1.0.91</version>
     </sys_app>
 </record_update>
