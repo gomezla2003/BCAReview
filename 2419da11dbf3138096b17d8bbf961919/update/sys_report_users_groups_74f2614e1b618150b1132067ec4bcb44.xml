@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="ServiceNow Admins" name="ServiceNow Admins">17e153986f565200277218d22e3ee4ec</group_id>
+        <report_id display_value="BCA Review - Last Year">afa2a10e1b618150b1132067ec4bcb36</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>SHollien</sys_created_by>
+        <sys_created_on>2022-02-09 21:37:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>74f2614e1b618150b1132067ec4bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>afa2a10e1b618150b1132067ec4bcb36</sys_name>
+        <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+        <sys_update_name>sys_report_users_groups_74f2614e1b618150b1132067ec4bcb44</sys_update_name>
+        <sys_updated_by>SHollien</sys_updated_by>
+        <sys_updated_on>2022-02-09 21:37:25</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>

@@ -6,7 +6,7 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Incident" name="Incident">7d7c928f13f003000f3f76d66144b0b2</category>
-        <collection>u_bca</collection>
+        <collection>x_sthc_bca_review_bca_business_owner_mapping</collection>
         <condition/>
         <content_type>multipart/mixed</content_type>
         <default_interval/>
@@ -20,7 +20,7 @@
         <digest_template/>
         <digest_text/>
         <digestable>false</digestable>
-        <event_name>x_sthc_bca_review.bca.owner.single</event_name>
+        <event_name>x_sthc_bca_review.bca.PWre-set.single</event_name>
         <event_parm_1>true</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -80,24 +80,20 @@ bodyContent += "<tr><td valign=\"top\" width=\"125\"><strong>Workstation:</stron
   email.setBody(sHTML);
   email.setSubject(sSubject);
 </mail_script>]]></message>
-        <message_html><![CDATA[<p><img title="HonorHealth" src="hh_logo.pngx" alt="HonorHealth" width="200" height="50" align="left" border="" hspace="5" vspace="" /></p>
-<p>&nbsp;</p>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Connect Downtime Computer Readiness Review</strong></span></p>
+        <message_html><![CDATA[<p><img title="HonorHealth" src="hh_logo.pngx" alt="HonorHealth" width="100" height="50" align="left" border="" hspace="5" vspace="" /></p>
+<p><br /></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>BCA (Downtime) Workstation(s) in need of review</strong></span></p>
 <hr style="height: 3px; border: none; background-color: #72246c;" />
 <div style="background-color: #fcf4ff; border: 0.5px solid #72246c;">
-<p>${mail_script:BCA business owner sign-off_script_2}</p>
+<p>${mail_script:BCA business owner sign-off_script_3}</p>
 </div>
-<p style="margin: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span class="normaltextrun"><span style="font-size: 11.0pt; font-family: Calibri, sans-serif;">You have been identified as the person responsible to confirm that the&nbsp;<strong>Downtime Computer(s)</strong>&nbsp;in your area is ready should Connect become unavailable.&nbsp;Downtime Computers are identified by a&nbsp;red keyboard <strong><u>OR</u></strong> a yellow<strong>&nbsp;</strong>BCA &ndash; Connect Downtime label attached to the monitor.&nbsp;</span></span><span class="normaltextrun"><span style="font-size: 11.0pt; line-height: 107%; font-family: Calibri, sans-serif;">Sign into the Downtime Computer listed above. Open this email and click on the link in the upper right of this notification to complete the check list by end of day&nbsp;</span></span><strong style="font-size: 12pt;"> ${mail_script:BCA business owner sign-off_script_4}</strong></p>
-<p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
-<p style="margin: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span class="normaltextrun"><span style="font-size: 11.0pt; font-family: Calibri, sans-serif;">The purpose of the Downtime Computer is to ensure that critical patient data such as reports remain available during planned or unplanned downtimes.&nbsp;Downtime Computer readiness is a crucial part of the Recovery Process. It is part of our upgrade strategy to ensure that Continuity of Care is maintained throughout.&nbsp;&nbsp;All Downtime Computers across the Organization must be reviewed for Downtime Readiness prior to a planned Connect Upgrade.</span></span></p>
-<p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p><span style="font-size: 12pt;">Please review each workstation listed above by clicking on the associated 'link' and fill out the checklist</span></p>
+<p><br /></p>
 <hr style="height: 2px; border: none; background-color: #72246c;" />
-<p>&nbsp;</p>
-<p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12.0pt; color: #979797;">Want to learn more about Downtime Computer(s)? Click on the link below to watch the BCA PC eLearning. </span></p>
-<p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><a href="http://honorhub.honorhealth.com/connect/Documents/Training%20Resources/Connect_BCApc_v2.mp4"><span style="color: blue;">BCA PC eLearning</span></a></p>]]></message_html>
+<p><br /></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>BCA business owner sign-off (single)</name>
+        <name>BCA password reset assessment</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -108,24 +104,24 @@ bodyContent += "<tr><td valign=\"top\" width=\"125\"><strong>Workstation:</stron
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Connect Downtime Computer Readiness Review</subject>
+        <subject>BCA (Downtime) Workstation(s) in need of review</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
-        <sys_created_on>2018-08-29 18:31:22</sys_created_on>
+        <sys_created_on>2020-09-22 18:15:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>6225c824dbd0eb0096b17d8bbf96194c</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>BCA business owner sign-off (single)</sys_name>
+        <sys_id>6cd944231b139c109e6b85d7cc4bcb4e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>BCA password reset assessment</sys_name>
         <sys_overrides/>
         <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
-        <sys_update_name>sysevent_email_action_6225c824dbd0eb0096b17d8bbf96194c</sys_update_name>
-        <sys_updated_by>MWEBER</sys_updated_by>
-        <sys_updated_on>2022-03-29 20:27:58</sys_updated_on>
+        <sys_update_name>sysevent_email_action_6cd944231b139c109e6b85d7cc4bcb4e</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2021-05-13 18:46:45</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

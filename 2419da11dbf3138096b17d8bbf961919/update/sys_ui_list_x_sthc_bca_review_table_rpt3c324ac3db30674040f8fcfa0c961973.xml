@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_sthc_bca_review_table" version="2" view="RPT3c324ac3db30674040f8fcfa0c961973">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bca</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>940f0d0b1b6b60109ea1eac9bc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>180f0d0b1b6b60109ea1eac9bc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bca.u_application_owner</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>980f0d0b1b6b60109ea1eac9bc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bca.location</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>1c0f0d0b1b6b60109ea1eac9bc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>9c0f0d0b1b6b60109ea1eac9bc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>locate_bca</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>100f0d0b1b6b60109ea1eac9bc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>locate_bca_binder</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>900f0d0b1b6b60109ea1eac9bc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>login_bca</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>140f0d0b1b6b60109ea1eac9bc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>login_windows</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>940f0d0b1b6b60109ea1eac9bc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>print_downtime</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>180f0d0b1b6b60109ea1eac9bc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>print_report</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>980f0d0b1b6b60109ea1eac9bc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>supply</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>1c0f0d0b1b6b60109ea1eac9bc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>view_reports</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>9c0f0d0b1b6b60109ea1eac9bc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>icon_desktop</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>100f0d0b1b6b60109ea1eac9bc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>labels</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>900f0d0b1b6b60109ea1eac9bc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>launch_bca</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>140f0d0b1b6b60109ea1eac9bc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comments</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>940f0d0b1b6b60109ea1eac9bc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>additional_users_comment</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>180f0d0b1b6b60109ea1eac9bc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bca_folder</element>
+            <list_id display_value="x_sthc_bca_review_table" element="NULL" name="x_sthc_bca_review_table" parent="NULL" relationship="NULL" sys_domain="global" view="53174a8fdb786b88ecd688915b961974">1c0f0d0b1b6b60109ea1eac9bc4bcbb8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_id>980f0d0b1b6b60109ea1eac9bc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_sthc_bca_review_table</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>NGRIFFITHS</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>1c0f0d0b1b6b60109ea1eac9bc4bcbb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sthc_bca_review_table</sys_name>
+            <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+            <sys_update_name>sys_ui_list_x_sthc_bca_review_table_RPT3c324ac3db30674040f8fcfa0c961973</sys_update_name>
+            <sys_updated_by>NGRIFFITHS</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt3c324ac3db30674040f8fcfa0c961973" name="RPT3c324ac3db30674040f8fcfa0c961973">53174a8fdb786b88ecd688915b961974</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

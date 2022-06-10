@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Create BCA business owner mapping</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">ca29551b6f475100277218d22e3ee436</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>3</run_dayofweek>
+        <run_period>1970-01-01 00:30:00</run_period>
+        <run_start>2018-08-29 16:00:00</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[clearTable();
+createMapping();
+createMapping2();
+//createNotification();
+
+function createNotification(){
+	var gr = new GlideRecord('x_sthc_bca_review_bca_business_owner_mapping');
+	gr.query();
+	while(gr.next()){
+		gs.eventQueue('x_sthc_bca_review.bca.owner',gr,gr.business_owner);
+	}
+	
+	
+	
+}
+function createMapping(){
+var gr = new GlideRecord('cmdb_ci_computer');
+gr.addQuery('u_bca',true);
+gr.query();
+while(gr.next()){
+	var array = gr.u_business_owner.toString();
+	var sp = array.split(',');
+	
+	for( i = 0; i<sp.length; i++){
+	
+		var gr2 = new GlideRecord('x_sthc_bca_review_bca_business_owner_mapping');
+		gr2.addQuery('business_owner.sys_id',sp[i]);
+		gr2.query();
+		if(gr2.next()){
+			gr2.bca = gr2.bca + ',' +gr.sys_id;
+			gr2.update();
+		}
+		else{
+			gr2.initialize();
+			gr2.setValue('business_owner',sp[i]);
+			gr2.bca = gr.sys_id;
+			gr2.insert();
+		}
+	}
+}
+}
+
+function createMapping2(){
+var gr = new GlideRecord('cmdb_ci_computer');
+gr.addQuery('u_bca',true);
+gr.query();
+while(gr.next()){
+	var array = gr.u_business_owner.toString();
+	var sp = array.split(',');
+	
+	for( i = 0; i<sp.length; i++){
+	
+		var gr2 = new GlideRecord('x_sthc_bca_review_bca_owner_mapping');
+			gr2.initialize();
+			gr2.setValue('bca',gr.sys_id);
+			gr2.setValue('user',sp[i]);
+			gr2.insert();
+		
+		}
+	}
+}
+
+
+function clearTable(){
+	var gr = new GlideRecord('x_sthc_bca_review_bca_business_owner_mapping');
+	gr.query();
+	while(gr.next()){
+		gr.deleteRecord();
+	}
+	
+	var gr2 = new GlideRecord('x_sthc_bca_review_bca_owner_mapping');
+	gr2.query();
+	while(gr2.next()){
+		gr2.deleteRecord();
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-08-29 16:28:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2ef86750db50eb0096b17d8bbf9619fc</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Create BCA business owner mapping</sys_name>
+        <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+        <sys_update_name>sysauto_script_2ef86750db50eb0096b17d8bbf9619fc</sys_update_name>
+        <sys_updated_by>NGRIFFITHS</sys_updated_by>
+        <sys_updated_on>2021-09-29 22:40:25</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

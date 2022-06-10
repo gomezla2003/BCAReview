@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="BCA review Table" max_length="40" name="x_sthc_bca_review_table" sizeclass="2564" type="collection">
+        <element label="Add additional Business Owners" max_length="1000" name="additional_users_comment" type="string"/>
+        <element label="BCA" max_length="32" name="bca" reference="cmdb_ci_computer" type="reference"/>
+        <element label="Able to locate the &quot;Downtime Forms&quot; folder" max_length="40" name="bca_folder" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="2000" name="comments" type="string"/>
+        <element label="icon_desktop" max_length="32" name="icon_desktop" type="string"/>
+        <element label="labels" max_length="32" name="labels" type="string"/>
+        <element label="Upon windows login, confirm the green Business Continuity Access (BCA) PC login" max_length="32" name="launch_bca" type="string"/>
+        <element label="Able to locate the BCA (downtime) computer" max_length="40" name="locate_bca" type="string"/>
+        <element label="Able to locate the BCA red binder near the BCA computer" max_length="40" name="locate_bca_binder" type="string"/>
+        <element label="Able to Log into the BCA Application using Epic Username and Password" max_length="40" name="login_bca" type="string"/>
+        <element label="Able to log into Windows using the BCA Username (.\bcauser) and NEW Password" max_length="40" name="login_windows" type="string"/>
+        <element label="Able to print 1 downtime form from within the &quot;Downtime Forms&quot; folder" max_length="40" name="print_downtime" type="string"/>
+        <element label="Able to print 1 BCA Report to the locally attached printer" max_length="40" name="print_report" type="string"/>
+        <element label="Have enough supply of printed downtime forms for use" max_length="40" name="supply" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="4d374952db4848105c77a1ac0b9619cd" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Confirm that the BCA Binder has the new BCA Binder Material Pg. 3 and 4" max_length="40" name="u_bca_binder_material" type="string"/>
+        <element label="Confirm that BCA Login tip sheet has been replaced with new on front cover" max_length="40" name="u_bca_login_tip_sheet" type="string"/>
+        <element label="Sister W Match" max_length="40" name="u_sister_w_match" type="string"/>
+        <element label="Able to view BCA Reports" max_length="40" name="view_reports" type="string"/>
+        <index name="index">
+            <element name="bca"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

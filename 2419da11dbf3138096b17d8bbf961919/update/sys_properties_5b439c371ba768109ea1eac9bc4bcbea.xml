@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>BCA Review activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_sthc_bca_review_bca_review_activity.fields</name>
+        <read_roles/>
+        <suffix>x_sthc_bca_review</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2021-04-22 20:02:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5b439c371ba768109ea1eac9bc4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_sthc_bca_review_bca_review_activity.fields</sys_name>
+        <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+        <sys_update_name>sys_properties_5b439c371ba768109ea1eac9bc4bcbea</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2021-04-22 20:02:05</sys_updated_on>
+        <type>string</type>
+        <value>bca,user,bca_folder,launch_bca,locate_bca,locate_bca_binder,login_bca,login_windows,print_downtime,print_report,supply,*Email*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=5b439c371ba768109ea1eac9bc4bcbea"/>
+</record_update>

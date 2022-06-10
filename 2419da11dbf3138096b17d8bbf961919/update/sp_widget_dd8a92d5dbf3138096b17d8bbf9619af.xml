@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	c.submit = function(){
+		if(!c.data.locate_bca || !c.data.locate_bca_binder || !c.data.login_windows || !c.data.icon_desktop || !c.data.launch_bca || !c.data.login_bca || !c.data.view_reports || !c.data.print_report || !c.data.print_downtime || !c.data.supply || !c.data.labels ){
+			swal("Items Missing", "You have not documneted all items", "error" );
+			swal({
+				title: "Missing Information",
+				text: "You have not documented all items",
+				icon: "warning",
+				showCancelButton:  true,
+				confirmButtonColor:  '#d33',
+				cancelButtonColor: '#3085d6',
+				cancelButtonText: 'Go Back',
+				confirmButtonText: 'Continue & Submit'
+			}).then(function(){
+					submit2();
+				c.data.submit = 'true';
+						c.server.update();
+			});
+		}
+		else{
+			submit2();
+			c.data.submit = 'true';
+						c.server.update();
+		}
+	}	
+
+}
+
+function submit2 (){
+
+	swal("Thank You", "This workstation has been reviewed", "success").then(function(){
+            
+						window.location = '/csm';
+						$( "#button" ).addClass( "validate");
+						
+					})
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>
+.container {
+ width: 100%;
+  margin: 50px auto;
+  padding: 0 15px;
+}
+
+.checklist section {
+  //display: block;
+  margin-bottom: 1.25rem;
+  //max-width: 700px;
+  background: #fff;
+  box-shadow: 0 3px 40px 0 rgba(0, 0, 0, .15);
+}
+
+.checklist header {
+  background: purple;
+  text-align: center;
+  color: #FFF;
+  font-size: 18px;
+  //font-size: 12rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.secondHeader {
+  background: rgba(248, 158, 30, 0.3);
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  //font-size: 12rem;
+  line-height: .9;
+  text-transform: uppercase;
+  padding: 20px 0;
+  //font-weight: 400;
+  margin-bottom: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  width:80%
+}
+
+
+.center{
+  text-align:center;
+
+}
+
+//SUBMIT BUTTON
+$green: purple;
+$gray: #bbbbbb;
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  margin-top:50px;
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: #fff;
+  border: 2px solid $green;
+  color:$green;
+  letter-spacing:1px;
+  text-shadow:0;
+  font:{
+    size:12px;
+    weight:bold;
+  }
+  cursor: pointer;
+  transition: all 0.25s ease;
+  &amp;:hover {
+    color:white;
+    background: $green;
+  }
+  &amp;:active {
+    //letter-spacing: 2px;
+    letter-spacing: 2px ;
+  }
+  &amp;:after {
+    content:"SUBMIT";
+  }
+}
+.validate {
+  font-size:13px;
+  color: white;
+  background: $green;
+  &amp;:after {
+    font-family:'FontAwesome';
+    content:"\f00c";
+  }
+}
+
+.comment{
+  margin:auto;
+  width:90%;
+  padding-bottom:10px;
+}
+
+
+
+@import "compass/css3";
+
+
+
+
+input[type="radio"] {
+  appearance:none;
+  margin:10px 10px 5px 10px;
+  //margin-top:20px;
+  width: 24px;
+  height: 24px;
+  background: #eeeeee;
+
+  border-radius: 50%;
+  transition: .4s;
+  cursor:pointer;
+  color: lightgray;
+
+  &amp;:hover,
+  &amp;:checked {
+     
+    background: orange;
+    box-shadow:
+    inset 0 0 0 .4em white,
+    0 0 0 .3em;
+  }
+  
+  &amp;:checked {
+     
+    background: orange;
+    box-shadow:
+      inset 0 0 0 .4em white,
+      0 0 0 .3em orange;
+    
+    &amp;.green{
+       
+      box-shadow:
+      inset 0 0 0 .4em white,
+        0 0 0 .3em green;}
+    
+    &amp;.red{
+      
+      box-shadow:
+      inset 0 0 0 .4em white,
+        0 0 0 .3em red;
+    }
+      
+  } 
+
+  &amp;:focus { outline: 0; }
+}
+
+
+
+tr{
+  border-bottom: 1px solid purple;
+  width: 100%;
+  margin-left: -10px;
+  
+}
+th{
+  font-size:1.0em;
+  padding-left:10px;
+}
+
+table{
+  margin:auto; 
+}
+label{
+  margin-top:10px;
+  margin-left: 20px;
+}
+.green{color:green}
+.red{color:red}
+
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>BCA Review</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	var bca = gs.action.getGlideURI().get('bca');
+	
+	
+	if(input){
+		if(input.submit == 'true'){
+			createReview(bca);
+			setReviewed(bca);
+		}
+		
+	}
+	else{
+		var valid = getBCADetails(bca);
+	getReview(bca);
+	}
+
+})();
+
+function createReview(bca){
+	var gr = new GlideRecord('x_sthc_bca_review_bca_review');
+	gr.initialize();
+	if(input.locate_bca_binder)gr.setValue('bca_folder', input.locate_bca_binder);
+	if(input.launch_bca)gr.setValue('launch_bca', input.launch_bca);
+	if(input.locate_bca)gr.setValue('locate_bca', input.locate_bca);
+	if(input.locate_bca_binder)gr.setValue('locate_bca_binder', input.locate_bca_binder);
+	if(input.login_bca)gr.setValue('login_bca', input.login_bca);
+	if(input.login_windows)gr.setValue('login_windows', input.login_windows);
+	if(input.print_downtime)gr.setValue('print_downtime', input.print_downtime);
+	if(input.print_report)gr.setValue('print_report', input.print_report);
+	if(input.supply)gr.setValue('supply', input.supply);
+	if(input.view_reports)gr.setValue('view_reports', input.view_reports);
+	if(input.icon_desktop)gr.setValue('icon_desktop',input.icon_desktop);
+	if(input.labels)gr.setValue('labels',input.labels);
+	if(input.addUsers)gr.setValue('additional_users_comment', input.addUsers);
+	gr.setValue('user',gs.getUserID());
+	gr.setValue('bca', bca);
+	if(input.comments)gr.setValue('comments',input.comments);
+	gr.insert();
+	
+}
+
+function setReviewed(bca){
+	var sbca = new GlideRecord('cmdb_ci_computer');
+	sbca.get(bca);
+	sbca.setValue('u_recently_reviewed',true);
+	sbca.update();
+	
+}
+
+function getBCADetails(bca){
+	var valid;
+	var gr = new GlideRecord('cmdb_ci_computer');
+	gr.addQuery('sys_id',bca);
+	gr.query();
+	while(gr.next()){
+		data.number = gr.getDisplayValue('name');
+		data.location = gr.getDisplayValue('location');
+		data.valid = true;
+		data.users = gr.getDisplayValue('u_business_owner');
+	}
+	return valid
+	
+}
+
+
+function getReview(bca){
+	var gr = new GlideRecord('x_sthc_bca_review_bca_review');
+	gr.addQuery('bca',bca);
+	gr.addQuery('bca.u_recently_reviewed',true);
+	gr.orderByDesc('sys_created_on');
+	gr.setLimit(1);
+	gr.query();
+	while(gr.next()){
+		data.locate_bca = gr.locate_bca.getDisplayValue();
+		if(gr.locate_bca_binder)data.locate_bca_binder = gr.locate_bca_binder.getDisplayValue();
+		if(gr.login_windows)data.login_windows = gr.login_windows.getDisplayValue();
+		if(gr.launch_bca)data.launch_bca = gr.launch_bca.getDisplayValue();
+		if(gr.login_bca)data.login_bca = gr.login_bca.getDisplayValue();
+		if(gr.view_reports)data.view_reports = gr.view_reports.getDisplayValue();
+		if(gr.print_report)data.print_report = gr.print_report.getDisplayValue();
+		if(gr.icon_desktop)data.icon_desktop = gr.icon_desktop.getDisplayValue();
+		if(gr.print_downtime)data.print_downtime = gr.print_downtime.getDisplayValue();
+		if(gr.supply)data.supply = gr.supply.getDisplayValue();
+		if(gr.labels)data.labels = gr.labels.getDisplayValue();
+		if(gr.comments)data.comments = gr.comments.getDisplayValue();
+		data.user = gr.user.getDisplayValue();
+		data.when = gr.sys_created_on.getDisplayValue();
+
+	}
+	
+	
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-08-07 16:48:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dd8a92d5dbf3138096b17d8bbf9619af</sys_id>
+        <sys_mod_count>406</sys_mod_count>
+        <sys_name>BCA Review</sys_name>
+        <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+        <sys_update_name>sp_widget_dd8a92d5dbf3138096b17d8bbf9619af</sys_update_name>
+        <sys_updated_by>SHollien</sys_updated_by>
+        <sys_updated_on>2021-11-02 23:23:31</sys_updated_on>
+        <template><![CDATA[<div ng-show="data.valid" class="container">
+  <div class="checklist">
+    <section>
+      <header>BCA Review for workstation {{data.number}} {{data.location}}</header>   
+
+    </section>
+    
+    <div ng-if=data.user class="secondHeader">BCA previous reviewed by {{data.user}} at {{data.when}}</div>
+    
+   
+  
+<table style="width=100%">
+  <tr>
+  <th class="green">Pass</th>
+    <th class="red">Fail</th>
+    <th>N/A</th>
+    <th>Description</th>
+  </tr>
+    <tr>
+    <td><input ng-model="data.locate_bca" value="Yes" class="green" type="radio" name="locate_bca"/></td>
+    <td><input ng-model="data.locate_bca" value="No" class="red" type="radio" name="locate_bca"/></td>
+    <td><input ng-model="data.locate_bca" value="N/A" class="medium" type="radio" name="locate_bca"/></td>
+    <td><label>Able to locate Business Continuity Access (BCA) PC also called downtime computer</label></td>
+  </tr>
+    <tr>
+    <td><input ng-model="data.locate_bca_binder" value="Yes" class="green" type="radio" name="locate_bca_binder"/></td>
+    <td><input ng-model="data.locate_bca_binder" value="No" class="red" type="radio" name="locate_bca_binder"/></td>
+    <td><input ng-model="data.locate_bca_binder" value="N/A" class="medium" type="radio" name="locate_bca_binder"/></td>
+    <td><label>Able to locate the BCA red binder near the BCA computer</label></td>
+  </tr>
+  <tr>
+   <td><input ng-model="data.login_windows" value="Yes" class="green" type="radio" name="login_windows"/></td>
+    <td><input ng-model="data.login_windows" value="No" class="red" type="radio" name="login_windows"/></td>
+    <td><input ng-model="data.login_windows" value="N/A" class="medium" type="radio" name="login_windows"/></td>
+    <td><label>Able to log into Windows using the BCA Username and Password. See Login tip sheet in Downtime Binder</label></td>
+  </tr>
+    <tr>
+    <td><input ng-model="data.launch_bca" value="Yes" class="green" type="radio" name="launch_bca"/></td>
+    <td><input ng-model="data.launch_bca" value="No" class="red" type="radio" name="launch_bca"/></td>
+    <td><input ng-model="data.launch_bca" value="N/A" class="medium" type="radio" name="launch_bca"/></td>
+    <td><label>Upon windows login, confirm the green <i>"Business Continuity Access (BCA) PC"</i> login screen displays within 90 secs</label></td>
+  </tr>
+  
+   <tr>
+    <td><input ng-model="data.icon_desktop" value="Yes" class="green" type="radio" name="icon_desktop"/></td>
+    <td><input ng-model="data.icon_desktop" value="No" class="red" type="radio" name="icon_desktop"/></td>
+    <td><input ng-model="data.icon_desktop" value="N/A" class="medium" type="radio" name="icon_desktop"/></td>
+    <td><label>Confirm <i>"Epic BCA Downtime Computer"</i> Icon is on the desktop. Used only if the green BCA Login screen fails to display in 90 secs</label></td>
+  </tr>
+     <tr>
+    <td><input ng-model="data.login_bca" value="Yes" class="green" type="radio" name="login_bca"/></td>
+    <td><input ng-model="data.login_bca" value="No" class="red" type="radio" name="login_bca"/></td>
+    <td><input ng-model="data.login_bca" value="N/A" class="medium" type="radio" name="login_bca"/></td>
+    <td><label>Able to log into the BCA Application using Epic Username and Password</label></td>
+  </tr>
+     <tr>
+  <td><input ng-model="data.view_reports" value="Yes" class="green" type="radio" name="view_reports"/></td>
+    <td><input ng-model="data.view_reports" value="No" class="red" type="radio" name="view_reports"/></td>
+    <td><input ng-model="data.view_reports" value="N/A" class="medium" type="radio" name="view_reports"/></td>
+    <td><label>Able to view BCA Reports   </label></td>
+  </tr>
+ 
+     <tr>
+<td><input ng-model="data.print_report" value="Yes" class="green" type="radio" name="print_report"/></td>
+    <td><input ng-model="data.print_report" value="No" class="red" type="radio" name="print_report"/></td>
+    <td><input ng-model="data.print_report" value="N/A" class="medium" type="radio" name="print_report"/></td>
+    <td><label>Able to print one BCA report to the printer</label></td>
+  </tr>
+      
+     <tr>
+   <td><input ng-model="data.print_downtime" value="Yes" class="green" type="radio" name="print_downtime"/></td>
+    <td><input ng-model="data.print_downtime" value="No" class="red" type="radio" name="print_downtime"/></td>
+    <td><input ng-model="data.print_downtime" value="N/A" class="medium" type="radio" name="print_downtime"/></td>
+    <td><label>Able to print one downtime form from within the <i>"Downtime Forms"</i> folder located on the desktop</label></td>
+  </tr>
+     <tr>
+    <td><input ng-model="data.supply" value="Yes" class="green" type="radio" name="supply"/></td>
+    <td><input ng-model="data.supply" value="No" class="red" type="radio" name="supply"/></td>
+    <td><input ng-model="data.supply" value="N/A" class="medium" type="radio" name="supply"/></td>
+    <td><label>Have enough supply of printed downtime forms for use. If <i>"Fail"</i> please print an ample amount of forms (typically done through Prisma Graphics)</label></td>
+  </tr>
+     <tr>
+    <td><input ng-model="data.labels" value="Yes" class="green" type="radio" name="labels"/></td>
+    <td><input ng-model="data.labels" value="No" class="red" type="radio" name="labels"/></td>
+    <td><input ng-model="data.labels" value="N/A" class="medium" type="radio" name="labels"/></td>
+    <td><label>Have enough supply of Avery 5160 label sheets to print ADT labels. If <i>“Fail”</i> please order an ample amount of label sheets </label></td>
+  </tr>
+ 
+</table>
+<br>
+    
+     <div class="form-group comment">
+  <label for="comment">The following users recieved an email to review this workstation. <br><b> {{data.users}}</b><br>Is there anyone else who should be receiving e-mails for this checklist for this particular department? List the names and e-mail addresses below</label>
+  <textarea ng-model="data.addUsers" class="form-control" rows="3" id="comment"></textarea>
+</div>
+    
+    
+     <div class="form-group comment">
+  <label for="comment"><b>Please provide comments if needed. If you have any issues, please contact the IT Service Desk at 480-882-4357</b></label>
+  <textarea ng-model="data.comments" class="form-control" rows="5" id="comment"></textarea>
+</div>
+
+    <h4 class="center">
+      Want to learn more about Downtime Computer(s)? Click on the link below to watch the BCA PC eLearning.
+      <br>
+      <a href="http://honorhub.honorhealth.com/connect/Documents/Training%20Resources/Connect_BCApc_v2.mp4" target="_blank">Learn more about BCAs</a>
+    </h4>
+    
+  </div>
+   <button ng-click="c.submit()" id="button"></button>
+</div>
+      ]]></template>
+    </sp_widget>
+</record_update>

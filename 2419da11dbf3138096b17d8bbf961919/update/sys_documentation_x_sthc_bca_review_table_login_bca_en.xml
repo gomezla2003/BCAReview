@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="login_bca" label="Able to Log into the BCA Application using Epic Username and Password" language="en" table="x_sthc_bca_review_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>login_bca</element>
+            <help/>
+            <hint/>
+            <label>Able to Log into the BCA Application using Epic Username and Password</label>
+            <language>en</language>
+            <name>x_sthc_bca_review_table</name>
+            <plural>Able to Log into the BCA Application using Epic Username and Passwords</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-09-21 20:44:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8330cbf7db202b0096b17d8bbf9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Able to Log into the BCA Application using Epic Username and Password</sys_name>
+            <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+            <sys_update_name>sys_documentation_x_sthc_bca_review_table_login_bca_en</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-09-21 20:44:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="">533fbe7fdb9ee380ecd688915b9619f5</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-12-17 20:30:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5b3fbe7fdb9ee380ecd688915b9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>533fbe7fdb9ee380ecd688915b9619f5</sys_name>
+        <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+        <sys_update_name>sys_report_users_groups_5b3fbe7fdb9ee380ecd688915b9619f5</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-12-17 20:30:11</sys_updated_on>
+        <user_id display_value="Louie Gomez">9dd736c46fd4710068ceda0cbb3ee476</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCA review">2419da11dbf3138096b17d8bbf961919</application>
+        <comments/>
+        <file_path/>
+        <instance_id>25bc9655a91c5d0058ebf191520622b5</instance_id>
+        <instance_name>shc</instance_name>
+        <name>sys_report_users_groups_5b3fbe7fdb9ee380ecd688915b9619f5</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">533fbe7fdb9ee380ecd688915b9619f5</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>LGOMEZ</sys_created_by><sys_created_on>2018-12-17 20:30:11</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>5b3fbe7fdb9ee380ecd688915b9619f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>533fbe7fdb9ee380ecd688915b9619f5</sys_name><sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope><sys_update_name>sys_report_users_groups_5b3fbe7fdb9ee380ecd688915b9619f5</sys_update_name><sys_updated_by>LGOMEZ</sys_updated_by><sys_updated_on>2018-12-17 20:30:11</sys_updated_on><user_id display_value="Louie Gomez">9dd736c46fd4710068ceda0cbb3ee476</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>-592280293</payload_hash>
+        <record_name>533fbe7fdb9ee380ecd688915b9619f5</record_name>
+        <reverted_from/>
+        <source>980ad60bdb30ab88ecd688915b9619a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-12-17 20:30:11</sys_created_on>
+        <sys_id>2f3ffe7fdb9ee380ecd688915b96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>167bddc9d4b0000001</sys_recorded_at>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-12-17 20:30:11</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>e33ffe7fe99ee380a8f2a29f8240511c</update_guid>
+        <update_guid_history>e33ffe7fe99ee380a8f2a29f8240511c:-592280293</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>NGRIFFITHS</sys_created_by>
+        <sys_created_on>2021-04-20 16:58:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>a64a3ec205924628b90d5341410e1bc4</sys_id>
+        <sys_metadata>5b3fbe7fdb9ee380ecd688915b9619f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>533fbe7fdb9ee380ecd688915b9619f5</sys_name>
+        <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+        <sys_parent display_value="BCA Failed Reviews">533fbe7fdb9ee380ecd688915b9619f5</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+        <sys_scope_delete display_value="">34b1f9b1f0894aca970cafcafc332049</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_5b3fbe7fdb9ee380ecd688915b9619f5</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_5b3fbe7fdb9ee380ecd688915b9619f5">2f3ffe7fdb9ee380ecd688915b96191c</sys_update_version>
+        <sys_updated_by>NGRIFFITHS</sys_updated_by>
+        <sys_updated_on>2021-04-20 16:58:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

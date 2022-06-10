@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4e9e09a1db5f18d40249be4f29961995" sys_domain="global" table="x_sthc_bca_review_bca_review_password_reset" version="3" view="BCA">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bca</element>
+            <position>0</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>b5f1556f1b1710509e6b85d7cc4bcb8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <position>1</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>02f1556f1b1710509e6b85d7cc4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>2</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>86f1556f1b1710509e6b85d7cc4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>3</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>0ef1556f1b1710509e6b85d7cc4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>82f1556f1b1710509e6b85d7cc4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>launch_bca</element>
+            <position>5</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>0af1556f1b1710509e6b85d7cc4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>locate_bca</element>
+            <position>6</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>8ef1556f1b1710509e6b85d7cc4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>locate_bca_binder</element>
+            <position>7</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>06f1556f1b1710509e6b85d7cc4bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>login_windows</element>
+            <position>8</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>8af1556f1b1710509e6b85d7cc4bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bca_folder</element>
+            <position>9</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>02f1556f1b1710509e6b85d7cc4bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>86f1556f1b1710509e6b85d7cc4bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>login_bca</element>
+            <position>11</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>0ef1556f1b1710509e6b85d7cc4bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>print_downtime</element>
+            <position>12</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>82f1556f1b1710509e6b85d7cc4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>print_report</element>
+            <position>13</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>0af1556f1b1710509e6b85d7cc4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>view_reports</element>
+            <position>14</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>8ef1556f1b1710509e6b85d7cc4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supply</element>
+            <position>15</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>06f1556f1b1710509e6b85d7cc4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bca_binder_material</element>
+            <position>16</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>8af1556f1b1710509e6b85d7cc4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bca_login_tip_sheet</element>
+            <position>17</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>02f1556f1b1710509e6b85d7cc4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sister_w_match</element>
+            <position>18</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>86f1556f1b1710509e6b85d7cc4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>0ef1556f1b1710509e6b85d7cc4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>icon_desktop</element>
+            <position>20</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>82f1556f1b1710509e6b85d7cc4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>labels</element>
+            <position>21</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>0af1556f1b1710509e6b85d7cc4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>22</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-22 23:30:32</sys_created_on>
+            <sys_id>c2f1556f1b1710509e6b85d7cc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_bca_review_bca_review_password_reset" sys_domain="global" view="50a991fc6f189f40277218d22e3ee4d4">4e9e09a1db5f18d40249be4f29961995</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-22 23:30:32</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_sthc_bca_review_bca_review_password_reset</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2020-09-16 18:07:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>4e9e09a1db5f18d40249be4f29961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sthc_bca_review_bca_review_password_reset</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+            <sys_update_name>sys_ui_section_4e9e09a1db5f18d40249be4f29961995</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2020-09-16 18:07:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="BCA" name="BCA">50a991fc6f189f40277218d22e3ee4d4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

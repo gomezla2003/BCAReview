@@ -82,17 +82,14 @@ bodyContent += "<tr><td valign=\"top\" width=\"125\"><strong>Workstation:</stron
 </mail_script>]]></message>
         <message_html><![CDATA[<p><img title="HonorHealth" src="hh_logo.pngx" alt="HonorHealth" width="200" height="50" align="left" border="" hspace="5" vspace="" /></p>
 <p>&nbsp;</p>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Downtime Computer(s) in need of review for Business Continuity Access (BCA)</strong></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Connect Downtime Computer Readiness Review</strong></span></p>
 <hr style="height: 3px; border: none; background-color: #72246c;" />
 <div style="background-color: #fcf4ff; border: 0.5px solid #72246c;">
-<p>${mail_script:BCA business owner sign-off_script_1}</p>
+<p>${mail_script:BCA business owner sign-off_script_2}</p>
 </div>
+<p style="margin: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span class="normaltextrun"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">You have been identified as the person responsible to confirm that the&nbsp;<strong>Downtime Computer(s)</strong>&nbsp;in your area is ready should Connect become unavailable.&nbsp;Downtime Computers are identified by a&nbsp;red keyboard <strong><u>OR</u></strong> a yellow<strong>&nbsp;</strong>BCA &ndash; Connect Downtime label attached to the monitor. </span></span><span class="normaltextrun"><span style="font-size: 11pt; line-height: 107%; font-family: Calibri, sans-serif;">Sign into the Downtime Computer listed above. Open this email and click on the link in the upper right of this notification to complete the check list by end of day&nbsp;</span></span><strong style="font-size: 12pt;"> ${mail_script:BCA business owner sign-off_script_4}</strong></p>
 <p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
-<p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12pt; color: black;">You are identified as the Business Owner for the downtime computer(s) listed above. </span></p>
-<p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12pt;">Business Owners are required to complete the linked check list to validate each downtime computer prior to an Epic (Connect) Upgrade.</span></p>
-<p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12pt;">Your Downtime Computer(s) can be identified by the red keyboard and the yellow BCA label on the monitor. </span></p>
-<p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12pt; color: black;">Validated Downtime Computer(s) contain reports to ensure continuity of patient care in the event of a downtime. </span></p>
-<p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12pt;"><span style="line-height: 107%; font-family: Calibri, sans-serif; color: black;">Downtime Computer(s) must be validated three days prior to the scheduled downtime. DATE: ${mail_script:BCA business owner sign-off_script_4}</span></span></p>
+<p style="margin: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span class="normaltextrun"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">The purpose of the Downtime Computer is to ensure that critical patient data such as reports remain available during planned or unplanned downtimes.&nbsp;Downtime Computer readiness is a crucial part of the Recovery Process. It is part of our upgrade strategy to ensure that Continuity of Care is maintained throughout.&nbsp;&nbsp;All Downtime Computers across the Organization must be reviewed for Downtime Readiness prior to a planned Connect Upgrade.</span></span></p>
 <p style="margin: 0in; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
 <hr style="height: 2px; border: none; background-color: #72246c;" />
 <p>&nbsp;</p>
@@ -111,7 +108,7 @@ bodyContent += "<tr><td valign=\"top\" width=\"125\"><strong>Workstation:</stron
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Downtime Computer(s) in need of review for Business Continuity Access (BCA)</subject>
+        <subject>Connect Downtime Computer Readiness Review</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
@@ -119,7 +116,7 @@ bodyContent += "<tr><td valign=\"top\" width=\"125\"><strong>Workstation:</stron
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>0d38b794db90eb0096b17d8bbf9619e4</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>BCA business owner sign-off</sys_name>
         <sys_overrides/>
         <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
@@ -128,7 +125,7 @@ bodyContent += "<tr><td valign=\"top\" width=\"125\"><strong>Workstation:</stron
         <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
         <sys_update_name>sysevent_email_action_0d38b794db90eb0096b17d8bbf9619e4</sys_update_name>
         <sys_updated_by>MWEBER</sys_updated_by>
-        <sys_updated_on>2022-03-14 17:07:46</sys_updated_on>
+        <sys_updated_on>2022-03-29 19:31:12</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="BCA owner mapping" max_length="40" name="x_sthc_bca_review_bca_owner_mapping" sizeclass="565" type="collection">
+        <element label="BCA" max_length="32" name="bca" reference="cmdb_ci_computer" type="reference"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="bca"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

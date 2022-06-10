@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-06-10 14:48:53">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-10-01 16:57:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>af3c21cfdbbc274040f8fcfa0c961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+        <sys_update_name>sys_portal_page_af3c21cfdbbc274040f8fcfa0c961908</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-10-01 16:57:55</sys_updated_on>
+        <title>PA New Tab</title>
+        <user/>
+        <view>pa_new_tab_174</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">af3c21cfdbbc274040f8fcfa0c961908</page>
+                <summary>BCA No Labels or Printer stock</summary>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-12-17 20:26:14</sys_created_on>
+                <sys_id>215e3ab7db9ee380ecd688915b961941</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-12-17 20:26:14</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 12-17-2018 13:26:14">215e3ab7db9ee380ecd688915b961941</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:26:14</sys_created_on>
+                        <sys_id>255e3ab7db9ee380ecd688915b961942</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:26:14</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 12-17-2018 13:26:14">215e3ab7db9ee380ecd688915b961941</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:26:14</sys_created_on>
+                        <sys_id>295e3ab7db9ee380ecd688915b961941</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:26:14</sys_updated_on>
+                        <value>be3ebe37db9ee380ecd688915b9619f4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 12-17-2018 13:26:14">215e3ab7db9ee380ecd688915b961941</portal_section>
+                        <sys_created_by>system</sys_created_by>
+                        <sys_created_on>2019-01-19 13:02:29</sys_created_on>
+                        <sys_id>5b351b1edb032300a08eaed15b961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>system</sys_updated_by>
+                        <sys_updated_on>2019-01-19 13:02:29</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 12-17-2018 13:26:14">215e3ab7db9ee380ecd688915b961941</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:26:14</sys_created_on>
+                        <sys_id>615e3ab7db9ee380ecd688915b961942</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:26:14</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 12-17-2018 13:26:14">215e3ab7db9ee380ecd688915b961941</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:26:14</sys_created_on>
+                        <sys_id>6d5e3ab7db9ee380ecd688915b961942</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:26:14</sys_updated_on>
+                        <value>BCA No Labels or Printer stock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 12-17-2018 13:26:14">215e3ab7db9ee380ecd688915b961941</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:26:14</sys_created_on>
+                        <sys_id>a95e3ab7db9ee380ecd688915b961942</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:26:14</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 12-17-2018 13:26:14">215e3ab7db9ee380ecd688915b961941</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:26:14</sys_created_on>
+                        <sys_id>e55e3ab7db9ee380ecd688915b961942</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:26:14</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">af3c21cfdbbc274040f8fcfa0c961908</page>
+                <summary>Total BCAs</summary>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2019-02-25 16:47:17</sys_created_on>
+                <sys_id>7c8b6adedb372f40808f68461b961985</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2019-02-25 16:47:17</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 02-25-2019 09:47:17">7c8b6adedb372f40808f68461b961985</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2019-02-25 16:47:17</sys_created_on>
+                        <sys_id>308b6adedb372f40808f68461b961989</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2019-02-25 16:47:17</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 02-25-2019 09:47:17">7c8b6adedb372f40808f68461b961985</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2019-02-25 16:47:17</sys_created_on>
+                        <sys_id>348b6adedb372f40808f68461b961988</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2019-02-25 16:47:17</sys_updated_on>
+                        <value>Total BCAs</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 02-25-2019 09:47:17">7c8b6adedb372f40808f68461b961985</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2019-02-25 16:47:17</sys_created_on>
+                        <sys_id>388b6adedb372f40808f68461b961987</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2019-02-25 16:47:17</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 02-25-2019 09:47:17">7c8b6adedb372f40808f68461b961985</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2019-02-25 16:47:17</sys_created_on>
+                        <sys_id>708b6adedb372f40808f68461b961988</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2019-02-25 16:47:17</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 02-25-2019 09:47:17">7c8b6adedb372f40808f68461b961985</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2019-02-25 16:47:17</sys_created_on>
+                        <sys_id>748b6adedb372f40808f68461b961987</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2019-02-25 16:47:17</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 02-25-2019 09:47:17">7c8b6adedb372f40808f68461b961985</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2019-02-25 16:47:17</sys_created_on>
+                        <sys_id>788b6adedb372f40808f68461b961986</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2019-02-25 16:47:17</sys_updated_on>
+                        <value>66f9aa56db372f40808f68461b961903</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 02-25-2019 09:47:17">7c8b6adedb372f40808f68461b961985</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2019-02-25 16:47:17</sys_created_on>
+                        <sys_id>bc8b6adedb372f40808f68461b961987</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2019-02-25 16:47:17</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 02-25-2019 09:47:17">7c8b6adedb372f40808f68461b961985</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2019-02-25 16:47:17</sys_created_on>
+                        <sys_id>f88b6adedb372f40808f68461b961987</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2019-02-25 16:47:17</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">af3c21cfdbbc274040f8fcfa0c961908</page>
+                <summary>BCA Failed Reviews</summary>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-12-17 20:30:24</sys_created_on>
+                <sys_id>7e4f72bfdb9ee380ecd688915b9619db</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-12-17 20:30:24</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 12-17-2018 13:30:24">7e4f72bfdb9ee380ecd688915b9619db</portal_section>
+                        <sys_created_by>system</sys_created_by>
+                        <sys_created_on>2019-01-19 13:02:29</sys_created_on>
+                        <sys_id>0f351b1edb032300a08eaed15b96197b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>system</sys_updated_by>
+                        <sys_updated_on>2019-01-19 13:02:29</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 12-17-2018 13:30:24">7e4f72bfdb9ee380ecd688915b9619db</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:30:24</sys_created_on>
+                        <sys_id>324f72bfdb9ee380ecd688915b9619dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:30:24</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 12-17-2018 13:30:24">7e4f72bfdb9ee380ecd688915b9619db</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:30:24</sys_created_on>
+                        <sys_id>3e4f72bfdb9ee380ecd688915b9619dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:30:24</sys_updated_on>
+                        <value>BCA Failed Reviews</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 12-17-2018 13:30:24">7e4f72bfdb9ee380ecd688915b9619db</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:30:24</sys_created_on>
+                        <sys_id>7a4f72bfdb9ee380ecd688915b9619dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:30:24</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 12-17-2018 13:30:24">7e4f72bfdb9ee380ecd688915b9619db</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:30:24</sys_created_on>
+                        <sys_id>b64f72bfdb9ee380ecd688915b9619dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:30:24</sys_updated_on>
+                        <value>533fbe7fdb9ee380ecd688915b9619f5</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 12-17-2018 13:30:24">7e4f72bfdb9ee380ecd688915b9619db</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:30:24</sys_created_on>
+                        <sys_id>b64f72bfdb9ee380ecd688915b9619dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:30:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 12-17-2018 13:30:24">7e4f72bfdb9ee380ecd688915b9619db</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:30:24</sys_created_on>
+                        <sys_id>f24f72bfdb9ee380ecd688915b9619dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:30:24</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">af3c21cfdbbc274040f8fcfa0c961908</page>
+                <summary>BCAs Not Recently Reveiwed</summary>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-12-17 20:27:52</sys_created_on>
+                <sys_id>a1be7e7bdb9ee380ecd688915b9619b9</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-12-17 20:27:52</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 12-17-2018 13:27:52">a1be7e7bdb9ee380ecd688915b9619b9</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:27:52</sys_created_on>
+                        <sys_id>21be7e7bdb9ee380ecd688915b9619bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:27:52</sys_updated_on>
+                        <value>BCAs Not Recently Reveiwed</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 12-17-2018 13:27:52">a1be7e7bdb9ee380ecd688915b9619b9</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:27:52</sys_created_on>
+                        <sys_id>25be7e7bdb9ee380ecd688915b9619ba</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:27:52</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 12-17-2018 13:27:52">a1be7e7bdb9ee380ecd688915b9619b9</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:27:52</sys_created_on>
+                        <sys_id>6dbe7e7bdb9ee380ecd688915b9619ba</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:27:52</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 12-17-2018 13:27:52">a1be7e7bdb9ee380ecd688915b9619b9</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:27:52</sys_created_on>
+                        <sys_id>a9be7e7bdb9ee380ecd688915b9619ba</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:27:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 12-17-2018 13:27:52">a1be7e7bdb9ee380ecd688915b9619b9</portal_section>
+                        <sys_created_by>system</sys_created_by>
+                        <sys_created_on>2019-01-19 13:02:29</sys_created_on>
+                        <sys_id>c3351b1edb032300a08eaed15b961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>system</sys_updated_by>
+                        <sys_updated_on>2019-01-19 13:02:29</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 12-17-2018 13:27:52">a1be7e7bdb9ee380ecd688915b9619b9</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:27:52</sys_created_on>
+                        <sys_id>e5be7e7bdb9ee380ecd688915b9619ba</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:27:52</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 12-17-2018 13:27:52">a1be7e7bdb9ee380ecd688915b9619b9</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:27:52</sys_created_on>
+                        <sys_id>e9be7e7bdb9ee380ecd688915b9619b9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:27:52</sys_updated_on>
+                        <value>75aeba7bdb9ee380ecd688915b9619bd</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">af3c21cfdbbc274040f8fcfa0c961908</page>
+                <summary>Recently Reviewed BCA's</summary>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-11-29 19:51:41</sys_created_on>
+                <sys_id>bfc98642db4e6f8cecd688915b96199e</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-11-29 19:51:41</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 11-29-2018 12:51:41">bfc98642db4e6f8cecd688915b96199e</portal_section>
+                        <sys_created_by>system</sys_created_by>
+                        <sys_created_on>2019-01-19 13:02:29</sys_created_on>
+                        <sys_id>0f351b1edb032300a08eaed15b961948</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>system</sys_updated_by>
+                        <sys_updated_on>2019-01-19 13:02:29</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 11-29-2018 12:51:41">bfc98642db4e6f8cecd688915b96199e</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-11-29 19:51:41</sys_created_on>
+                        <sys_id>33c98642db4e6f8cecd688915b9619a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-11-29 19:51:41</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 11-29-2018 12:51:41">bfc98642db4e6f8cecd688915b96199e</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-11-29 19:51:41</sys_created_on>
+                        <sys_id>3fc98642db4e6f8cecd688915b96199f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-11-29 19:51:41</sys_updated_on>
+                        <value>4816fd82db466f8cecd688915b961962</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 11-29-2018 12:51:41">bfc98642db4e6f8cecd688915b96199e</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-11-29 19:51:41</sys_created_on>
+                        <sys_id>7fc98642db4e6f8cecd688915b9619a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-11-29 19:51:41</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 11-29-2018 12:51:41">bfc98642db4e6f8cecd688915b96199e</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-11-29 19:51:41</sys_created_on>
+                        <sys_id>bbc98642db4e6f8cecd688915b9619a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-11-29 19:51:41</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 11-29-2018 12:51:41">bfc98642db4e6f8cecd688915b96199e</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-11-29 19:51:41</sys_created_on>
+                        <sys_id>f3c98642db4e6f8cecd688915b9619a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-11-29 19:51:41</sys_updated_on>
+                        <value>Recently Reviewed BCA's</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 11-29-2018 12:51:41">bfc98642db4e6f8cecd688915b96199e</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-11-29 19:51:41</sys_created_on>
+                        <sys_id>f7c98642db4e6f8cecd688915b9619a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-11-29 19:51:41</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">af3c21cfdbbc274040f8fcfa0c961908</page>
+                <summary>BCA Incomplete Reviews</summary>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-12-17 20:23:03</sys_created_on>
+                <sys_id>cb9dbe7fdb5ee380ecd688915b96191b</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-12-17 20:23:03</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 12-17-2018 13:23:03">cb9dbe7fdb5ee380ecd688915b96191b</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:23:03</sys_created_on>
+                        <sys_id>039dbe7fdb5ee380ecd688915b96191d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:23:03</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 12-17-2018 13:23:03">cb9dbe7fdb5ee380ecd688915b96191b</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:23:03</sys_created_on>
+                        <sys_id>079dbe7fdb5ee380ecd688915b96191c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:23:03</sys_updated_on>
+                        <value>4b8d3e7fdb5ee380ecd688915b9619d8</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 12-17-2018 13:23:03">cb9dbe7fdb5ee380ecd688915b96191b</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:23:03</sys_created_on>
+                        <sys_id>4b9dbe7fdb5ee380ecd688915b96191d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:23:03</sys_updated_on>
+                        <value>BCA Incomplete Reviews</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 12-17-2018 13:23:03">cb9dbe7fdb5ee380ecd688915b96191b</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:23:03</sys_created_on>
+                        <sys_id>4f9dbe7fdb5ee380ecd688915b96191c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:23:03</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 12-17-2018 13:23:03">cb9dbe7fdb5ee380ecd688915b96191b</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:23:03</sys_created_on>
+                        <sys_id>879dbe7fdb5ee380ecd688915b96191d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:23:03</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 12-17-2018 13:23:03">cb9dbe7fdb5ee380ecd688915b96191b</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-12-17 20:23:03</sys_created_on>
+                        <sys_id>c39dbe7fdb5ee380ecd688915b96191d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-12-17 20:23:03</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 12-17-2018 13:23:03">cb9dbe7fdb5ee380ecd688915b96191b</portal_section>
+                        <sys_created_by>system</sys_created_by>
+                        <sys_created_on>2019-01-19 13:02:29</sys_created_on>
+                        <sys_id>c7351b1edb032300a08eaed15b961985</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>system</sys_updated_by>
+                        <sys_updated_on>2019-01-19 13:02:29</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">af3c21cfdbbc274040f8fcfa0c961908</page>
+                <summary>BCA Inactive Business Owners</summary>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-10-01 18:52:04</sys_created_on>
+                <sys_id>d756c60bdb30674040f8fcfa0c961906</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-10-01 18:52:04</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 10-01-2018 11:52:04">d756c60bdb30674040f8fcfa0c961906</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:52:04</sys_created_on>
+                        <sys_id>2356c60bdb30674040f8fcfa0c961908</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:52:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 10-01-2018 11:52:04">d756c60bdb30674040f8fcfa0c961906</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:52:04</sys_created_on>
+                        <sys_id>5356c60bdb30674040f8fcfa0c961907</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:52:04</sys_updated_on>
+                        <value>9f95c20bdb30674040f8fcfa0c9619f9</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 10-01-2018 11:52:04">d756c60bdb30674040f8fcfa0c961906</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:52:04</sys_created_on>
+                        <sys_id>6f56c60bdb30674040f8fcfa0c961907</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:52:04</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 10-01-2018 11:52:04">d756c60bdb30674040f8fcfa0c961906</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:52:04</sys_created_on>
+                        <sys_id>a756c60bdb30674040f8fcfa0c961908</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:52:04</sys_updated_on>
+                        <value>BCA Inactive Business Owners</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 10-01-2018 11:52:04">d756c60bdb30674040f8fcfa0c961906</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:52:04</sys_created_on>
+                        <sys_id>ab56c60bdb30674040f8fcfa0c961907</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:52:04</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 10-01-2018 11:52:04">d756c60bdb30674040f8fcfa0c961906</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:52:04</sys_created_on>
+                        <sys_id>e356c60bdb30674040f8fcfa0c961908</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:52:04</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">af3c21cfdbbc274040f8fcfa0c961908</page>
+                <summary>BCA Review</summary>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-10-01 18:34:11</sys_created_on>
+                <sys_id>e9420247db30674040f8fcfa0c961903</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-10-01 18:34:12</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 10-01-2018 11:34:11">e9420247db30674040f8fcfa0c961903</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:34:12</sys_created_on>
+                        <sys_id>21428247db30674040f8fcfa0c96191c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:34:12</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 10-01-2018 11:34:11">e9420247db30674040f8fcfa0c961903</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:34:12</sys_created_on>
+                        <sys_id>25420247db30674040f8fcfa0c961904</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:34:12</sys_updated_on>
+                        <value>3c324ac3db30674040f8fcfa0c961973</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 10-01-2018 11:34:11">e9420247db30674040f8fcfa0c961903</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:34:12</sys_created_on>
+                        <sys_id>6d428247db30674040f8fcfa0c96191b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:34:12</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 10-01-2018 11:34:11">e9420247db30674040f8fcfa0c961903</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:34:12</sys_created_on>
+                        <sys_id>a5428247db30674040f8fcfa0c96191c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:34:12</sys_updated_on>
+                        <value>BCA Review</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 10-01-2018 11:34:11">e9420247db30674040f8fcfa0c961903</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:34:12</sys_created_on>
+                        <sys_id>a9428247db30674040f8fcfa0c96191b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:34:12</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 10-01-2018 11:34:11">e9420247db30674040f8fcfa0c961903</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:34:12</sys_created_on>
+                        <sys_id>e1428247db30674040f8fcfa0c96191c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:34:12</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">af3c21cfdbbc274040f8fcfa0c961908</page>
+                <summary>BCA Inactive Owners</summary>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-10-01 18:42:04</sys_created_on>
+                <sys_id>f8148687db30674040f8fcfa0c961997</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-10-01 18:42:04</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 10-01-2018 11:42:04">f8148687db30674040f8fcfa0c961997</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:42:04</sys_created_on>
+                        <sys_id>05148687db30674040f8fcfa0c961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:42:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 10-01-2018 11:42:04">f8148687db30674040f8fcfa0c961997</portal_section>
+                        <sys_created_by>system</sys_created_by>
+                        <sys_created_on>2019-01-19 13:02:29</sys_created_on>
+                        <sys_id>13351b1edb032300a08eaed15b9619a9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>system</sys_updated_by>
+                        <sys_updated_on>2019-01-19 13:02:29</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 10-01-2018 11:42:04">f8148687db30674040f8fcfa0c961997</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:42:04</sys_created_on>
+                        <sys_id>41148687db30674040f8fcfa0c961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:42:04</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 10-01-2018 11:42:04">f8148687db30674040f8fcfa0c961997</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:42:04</sys_created_on>
+                        <sys_id>45148687db30674040f8fcfa0c961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:42:04</sys_updated_on>
+                        <value>b9f3c287db30674040f8fcfa0c96198e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 10-01-2018 11:42:04">f8148687db30674040f8fcfa0c961997</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:42:04</sys_created_on>
+                        <sys_id>89148687db30674040f8fcfa0c961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:42:04</sys_updated_on>
+                        <value>BCA Inactive Owners</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 10-01-2018 11:42:04">f8148687db30674040f8fcfa0c961997</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:42:04</sys_created_on>
+                        <sys_id>8d148687db30674040f8fcfa0c961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:42:04</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 10-01-2018 11:42:04">f8148687db30674040f8fcfa0c961997</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-10-01 18:42:04</sys_created_on>
+                        <sys_id>c5148687db30674040f8fcfa0c961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-10-01 18:42:04</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-10-11 16:51:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3f8a0556db01278040f8fcfa0c961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sthc_bca_review_bca_owner_mapping.x_sthc_bca_review.user</sys_name>
+        <sys_package display_value="BCA review" source="x_sthc_bca_review">2419da11dbf3138096b17d8bbf961919</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCA review">2419da11dbf3138096b17d8bbf961919</sys_scope>
+        <sys_security_acl display_value="x_sthc_bca_review_bca_owner_mapping">378a0556db01278040f8fcfa0c961975</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3f8a0556db01278040f8fcfa0c961987</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-10-11 16:51:01</sys_updated_on>
+        <sys_user_role display_value="x_sthc_bca_review.user" name="x_sthc_bca_review.user">6c199a55dbf3138096b17d8bbf961996</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
